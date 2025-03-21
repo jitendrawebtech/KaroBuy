@@ -1,0 +1,70 @@
+.secHomeForm {
+	background-color: $black2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	@include laptops {
+		padding-top: 68px;
+		padding-bottom: 68px;
+	}
+	h4 {
+		font-weight: normal;
+		font-size: 25px;
+		color: $black1;
+		span {
+			font-weight: bold;
+			color: $color1;
+			@include laptops {
+				font-size: 50px;
+			}
+		}
+	}
+}
+
+.contact-form {
+	label {
+		margin-bottom: 0;
+		position: absolute;
+		top: 10px;
+		left: 22px;
+		font-size: 14px;
+		padding: 0 10px;
+		//font-weight: lighter;
+		cursor: text;
+		@include transition(all 0.4s);
+		i {
+			font-size: 10px;
+			color: $white;
+			vertical-align: super;
+		  }
+		&.active {
+			top: -13px;
+			font-size: 12px;
+			border: 1px solid $color2;
+			background-color: $white;
+			border-radius: 25px;
+			color: $color2;
+		}
+	}
+	
+	textarea {
+		height: 150px;
+	}
+	
+	input, textarea, select {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-indent: 16px;
+		border: none;
+		font-size: 14px;
+		background-color: $white;
+		&:focus {
+			outline: none;
+		}
+	}
+	
+	.alert-error {
+		font-size: 15px;
+		color: $red;
+	}
+}

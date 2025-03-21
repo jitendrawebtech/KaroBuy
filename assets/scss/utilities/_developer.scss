@@ -1,0 +1,41 @@
+        .Hello-Notification {
+            position: relative;
+            display: none;
+            top: 0px;
+            z-index: 101;
+            width: 100%;
+            height: auto;
+            background-color: #009000;
+            text-shadow: none;
+            -webkit-box-shadow: 0 8px 6px -6px #222;
+            -moz-box-shadow: 0 8px 6px -6px #222;
+            box-shadow: 0 8px 6px -6px #222;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+
+        .Hello-Notification__Content {
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+            .Hello-Notification__Content a {
+                color: white;
+            }
+
+            .Hello-Notification__Content:hover {
+                /*background-color: #4a4a4a;*/
+                color: #74ff35;
+            }
+
+
+            .Hello-Notification__Content .btn--grey {
+                color: white;
+                background-color: #222222;
+                padding: 1px 3px;
+                margin: 0 0 0 15px;
+                border-radius: 5px;
+                cursor: pointer;
+            }

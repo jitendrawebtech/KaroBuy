@@ -1,0 +1,12 @@
+@mixin transition($transition...) {
+	$prefixes: ("-webkit-", "-ms-", "-o-", "");
+	@each $prefix in $prefixes {
+		#{$prefix}transition: $transition;
+	}
+}
+
+@mixin transform($transforms) {
+    -webkit-transform: $transforms;
+    -ms-transform: $transforms;
+    transform: $transforms;
+}

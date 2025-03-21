@@ -1,0 +1,31 @@
+//MIXINS OPEN HERE
+	@import "mixins/media";
+	@import "mixins/mixins";
+//MIXINS CLOSE HERE
+
+//UTILITIES OPEN HERE
+	@import "utilities/variables";
+	@import "utilities/resets";
+	// @import "utilities/genric-classes";
+//UTILITIES CLOSE HERE
+
+//MODULES OPEN HERE
+/*	@import "modules/sprites";
+	@import "modules/banners";
+	@import "modules/sections";
+	@import "modules/forms";
+	@import "modules/cards";
+	@import "modules/videos";*/
+	// @import "modules/sections";
+	// @import "modules/forms";
+	// @import "modules/buttons";
+	@import "modules/social";
+//MODULES CLOSE HERE
+
+@import "pages/home";
+
+//LAYOUTS OPEN HERE
+	@import "layouts/header";
+	@import "layouts/sliders";
+	@import "layouts/footer";
+//LAYOUTS CLOSE HERE
