@@ -2,34 +2,40 @@
 	.bnr {
 		padding: 30px 15px;
 		background: $color2 no-repeat center/cover;
+
 		@include laptops {
 			padding: 46px 62px;
 		}
-		
+
 		h2 {
 			@include laptops {
 				font-size: 40px;
 			}
 		}
-		
+
 		h3 {
 			font-weight: normal;
 		}
-		
-		h2, h3, p {
+
+		h2,
+		h3,
+		p {
 			color: $white;
 		}
-		
-		.sec2, .sec3 {
+
+		.sec2,
+		.sec3 {
 			text-align: center;
 		}
-			
+
 		&.bnr-1 {
 			background-image: url(../images/wc-1.webp);
 		}
+
 		&.bnr-2 {
 			background-image: url(../images/wc-2.webp);
 		}
+
 		&.bnr-3 {
 			background-image: url(../images/wc-3.webp);
 			display: -ms-flexbox !important;
@@ -44,37 +50,45 @@
 
 .SecOurC {
 	padding-top: 40px;
+
 	@include laptops {
 		padding-top: 50px;
 		padding-bottom: 15px;
 	}
+
 	h4 {
 		font-weight: normal;
 		font-size: 25px;
+
 		span {
 			font-weight: bold;
+
 			@include laptops {
 				font-size: 50px;
 			}
 		}
 	}
-	
+
 	.card-deck {
 		.card {
 			.imgBox {
 				&.box1 {
 					background-color: $color2;
 				}
+
 				&.box2 {
 					background-color: $color1;
 				}
+
 				&.box3 {
 					background-color: $color3;
 				}
+
 				img {
 					@include transition(opacity 0.4s);
 				}
 			}
+
 			&:hover {
 				.imgBox {
 					img {
@@ -82,11 +96,12 @@
 					}
 				}
 			}
-			
+
 			.numBdr {
 				width: 120px;
 				height: 3px;
 				position: relative;
+
 				.num {
 					font-size: 12px;
 					text-align: center;
@@ -100,33 +115,40 @@
 					color: $white;
 					margin-bottom: 0;
 				}
+
 				&.bdr1 {
 					background-color: $color2;
+
 					.num {
 						background-color: $color2;
 					}
 				}
+
 				&.bdr2 {
 					background-color: $color1;
+
 					.num {
 						background-color: $color1;
 					}
 				}
+
 				&.bdr3 {
 					background-color: $color3;
+
 					.num {
 						background-color: $color3;
 					}
 				}
 			}
-			
+
 			.card-body {
 				padding-top: 40px;
 				padding-bottom: 40px;
-				
+
 				.card-title {
 					position: relative;
 					margin-bottom: 25px;
+
 					&::after {
 						content: '';
 						position: absolute;
@@ -148,9 +170,11 @@
 			&.bnr-1 {
 				background-image: url(../images/wc-1.jpg);
 			}
+
 			&.bnr-2 {
 				background-image: url(../images/wc-2.jpg);
 			}
+
 			&.bnr-3 {
 				background-image: url(../images/wc-3.jpg);
 			}

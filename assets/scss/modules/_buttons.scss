@@ -19,11 +19,12 @@
     background-color: $color1;
 }
 
-.myBtn1 span, .myBtn1 i {
+.myBtn1 span,
+.myBtn1 i {
     position: relative;
     z-index: 2;
     vertical-align: middle;
-	@include transition (margin 0.4s ease-in-out);
+    @include transition (margin 0.4s ease-in-out);
 }
 
 .myBtn1:hover .fa-long-arrow-alt-right {
@@ -32,8 +33,8 @@
 
 .myBtn1:hover {
     color: $white;
-    -webkit-box-shadow: 0 6px 6px rgba(0,0,0,0.15);
-    box-shadow: 0 6px 6px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
 }
 
 .myBtn1::before {
@@ -46,7 +47,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 1;
-	@include transition (all 0.4s ease-in-out);
+    @include transition (all 0.4s ease-in-out);
 }
 
 .myBtn1.btn1::before {
@@ -70,7 +71,7 @@
 .myBtn1.btn3::before {
     width: 100%;
     height: 0%;
-	@include transform(translate(-50%, -50%) rotate(45deg));
+    @include transform(translate(-50%, -50%) rotate(45deg));
 }
 
 .myBtn1.btn3:hover::before {
@@ -80,7 +81,7 @@
 .myBtn1.btn4::before {
     width: 100%;
     height: 0%;
-	@include transform(translate(-50%, -50%) rotate(-45deg));
+    @include transform(translate(-50%, -50%) rotate(-45deg));
 }
 
 .myBtn1.btn4:hover::before {
@@ -106,11 +107,12 @@
     background-color: $color2;
 }
 
-.myBtn2 span, .myBtn2 i {
+.myBtn2 span,
+.myBtn2 i {
     position: relative;
     z-index: 2;
     vertical-align: middle;
-	@include transition (margin 0.4s ease-in-out);
+    @include transition (margin 0.4s ease-in-out);
 }
 
 .myBtn2:hover .fa-long-arrow-alt-right {
@@ -119,8 +121,8 @@
 
 .myBtn2:hover {
     color: $white;
-    -webkit-box-shadow: 0 6px 6px rgba(0,0,0,0.15);
-    box-shadow: 0 6px 6px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
 }
 
 .myBtn2::before {
@@ -133,7 +135,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 1;
-	@include transition (all 0.4s ease-in-out);
+    @include transition (all 0.4s ease-in-out);
 }
 
 .myBtn2.btn1::before {
@@ -157,7 +159,7 @@
 .myBtn2.btn3::before {
     width: 100%;
     height: 0%;
-	@include transform(translate(-50%, -50%) rotate(45deg));
+    @include transform(translate(-50%, -50%) rotate(45deg));
 }
 
 .myBtn2.btn3:hover::before {
@@ -167,7 +169,7 @@
 .myBtn2.btn4::before {
     width: 100%;
     height: 0%;
-	@include transform(translate(-50%, -50%) rotate(-45deg));
+    @include transform(translate(-50%, -50%) rotate(-45deg));
 }
 
 .myBtn2.btn4:hover::before {
@@ -187,16 +189,17 @@
     border: 2px solid $color1; */
     padding: 8px 40px;
     overflow: hidden;
-	@include transition (all 0.6s);
+    @include transition (all 0.6s);
     background-color: $color3;
 }
 
-.myBtn3 span, .myBtn3 i {
+.myBtn3 span,
+.myBtn3 i {
     position: relative;
     z-index: 2;
     vertical-align: middle;
-	@include transition (margin 0.4s ease-in-out);
-	
+    @include transition (margin 0.4s ease-in-out);
+
 }
 
 .myBtn3:hover .fa-long-arrow-alt-right {
@@ -205,8 +208,8 @@
 
 .myBtn3:hover {
     color: $white;
-    -webkit-box-shadow: 0 6px 6px rgba(0,0,0,0.15);
-    box-shadow: 0 6px 6px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
 }
 
 .myBtn3::before {
@@ -215,9 +218,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-	z-index: 1;
-	@include transform(translate(-50%, -50%));
-	@include transition (all 0.4s ease-in-out);
+    z-index: 1;
+    @include transform(translate(-50%, -50%));
+    @include transition (all 0.4s ease-in-out);
 }
 
 .myBtn3.btn1::before {
@@ -241,7 +244,7 @@
 .myBtn3.btn3::before {
     width: 100%;
     height: 0%;
-	@include transform(translate(-50%, -50%) rotate(45deg));
+    @include transform(translate(-50%, -50%) rotate(45deg));
 }
 
 .myBtn3.btn3:hover::before {
@@ -251,12 +254,13 @@
 .myBtn3.btn4::before {
     width: 100%;
     height: 0%;
-	@include transform(translate(-50%, -50%) rotate(-45deg));
+    @include transform(translate(-50%, -50%) rotate(-45deg));
 }
 
 .myBtn3.btn4:hover::before {
     height: 600%;
 }
+
 /* ========================
     BUTTONS CLOSE HERE
 ========================*/

@@ -2,10 +2,12 @@
 	.SoLnk {
 		color: $white;
 		font-size: 28px;
+
 		&:not(:last-child) {
 			margin-right: 5px;
 		}
 	}
+
 	.mailLnk {
 		display: block;
 		color: $white;

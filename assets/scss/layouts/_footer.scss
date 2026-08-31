@@ -3,25 +3,31 @@
 .footer {
     padding-top: 50px;
     padding-bottom: 20px;
+
     @include laptops {
         padding-top: 80px;
     }
+
     background-color: $black;
+
     .fooBox {
         padding-bottom: 50px;
+
         h5 {
             color: $white4;
             font-weight: 500;
             margin-bottom: 20px;
         }
+
         ul {
             &.fooSoci {
                 i {
                     color: $white;
                     font-size: 28px;
-                        margin-right: 10px;
+                    margin-right: 10px;
                 }
             }
+
             li {
                 a {
                     font-size: 16px;
@@ -29,10 +35,12 @@
                     color: $white1;
                     line-height: 2;
                     text-decoration: none;
+
                     &:hover {
                         color: $color2;
                     }
                 }
+
                 p {
                     font-size: 16px;
                     display: block;
@@ -44,6 +52,7 @@
             }
         }
     }
+
     .copyright {
         text-align: center;
     }
@@ -60,8 +69,9 @@
     z-index: 99;
     box-shadow: 0 0 14px $color1;
     cursor: pointer;
-    transform: scale(0, 0); 
+    transform: scale(0, 0);
     transition: transform 0.3s ease;
+
     span {
         width: 1px;
         height: 1px;
@@ -72,7 +82,7 @@
         position: relative;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
 }
 
